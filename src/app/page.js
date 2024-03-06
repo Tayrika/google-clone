@@ -1,6 +1,10 @@
+import HomeHeader from "@/components/HomeHeader";
+
 function Home() {
   return ( 
-    <h1 className="">Home</h1>
+    <>
+      <HomeHeader /> 
+    </>
    );
 }
 
